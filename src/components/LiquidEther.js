@@ -935,6 +935,7 @@ export default function LiquidEther({
         };
         document.addEventListener('visibilitychange', this._onVisibility);
         this.running = false;
+        this.frameCount = 0;
       }
       init() {
         this.props.$wrapper.prepend(Common.renderer.domElement);
@@ -952,7 +953,11 @@ export default function LiquidEther({
       }
       loop() {
         if (!this.running) return;
-        this.render();
+        // Throttle to ~30fps: skip every other frame
+        if (this.frameCount % 2 === 0) {
+          this.render();
+        }
+        this.frameCount++;
         rafRef.current = requestAnimationFrame(this._loop);
       }
       start() {

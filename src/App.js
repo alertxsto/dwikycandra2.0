@@ -6,9 +6,10 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Team from './components/Team';
 import Contact from './components/Contact';
-import GlobalBackground from './components/GlobalBackground';
 import { FiGithub, FiLinkedin, FiInstagram } from 'react-icons/fi';
 
+// Lazy load heavy WebGL background (three.js) - keeps main bundle lean
+const GlobalBackground = lazy(() => import('./components/GlobalBackground'));
 // Lazy load ChatBot - only loads when needed
 const ChatBot = lazy(() => import('./components/ChatBot'));
 
@@ -51,7 +52,9 @@ function App() {
 
   return (
     <div className="App">
-      <GlobalBackground />
+      <Suspense fallback={null}>
+        <GlobalBackground />
+      </Suspense>
       <NavBar />
       <Hero />
       <main>
