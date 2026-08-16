@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Dwiky Candra",
+  "name": "Dwiky Candra — Full-Stack Developer & AI Engineer",
+  "description": "Portfolio of Dwiky Candra, Full-Stack Developer & Informatics student at President University. IDCamp 2025 Generative AI Engineering.",
   "icons": [
     {
       "src": "favicon.ico",
