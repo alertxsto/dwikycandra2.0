@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './chatbot.css';
-import { FiX, FiSend, FiMessageCircle } from 'react-icons/fi';
+import { FiX, FiSend } from 'react-icons/fi';
 
 export default function ChatBot() {
   const [isOpen, setIsOpen] = useState(false);
