@@ -69,7 +69,7 @@ function App() {
       <footer className="site-footer">
         <div className="container">
           <div className="footer-content">
-            <div>© {new Date().getFullYear()} Dwiky — Built with React</div>
+            <div>© {new Date().getFullYear()} Dwiky Candra — Built with React</div>
             <div className="social-links">
               <a href="https://github.com/dkycdr" target="_blank" rel="noopener noreferrer" title="GitHub" className="social-link">
                 <FiGithub />

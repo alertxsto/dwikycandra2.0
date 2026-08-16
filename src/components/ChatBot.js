@@ -7,7 +7,7 @@ export default function ChatBot() {
   const [messages, setMessages] = useState([
     {
       id: 1,
-      text: "Hey there! 👋 I'm Dwiky's AI assistant. Ask me about his projects, skills, experience, or anything else!",
+      text: "Hey there! 👋 I'm Dwiky Candra's AI assistant. Ask me about his projects, skills, experience, or anything else!",
       sender: 'bot',
       timestamp: new Date()
     }
@@ -47,28 +47,28 @@ export default function ChatBot() {
 
   const botResponses = {
     greeting: [
-      "Hello! I'm Dwiky's AI assistant. I'm here to answer questions about his projects, skills, and experience. How may I help you?",
-      "Welcome! I can provide information about Dwiky's work, technical expertise, and professional background. What would you like to know?",
-      "Greetings! I'm here to assist you with any questions about Dwiky's portfolio and capabilities. Feel free to ask anything.",
-      "Hello! Thank you for visiting. I'm available to discuss Dwiky's projects, technical skills, and professional experience. How can I assist?",
-      "Welcome to Dwiky's portfolio. I'm here to provide information about his work and expertise. What interests you?",
-      "Hi there! I can help you learn more about Dwiky's development work, project experience, and technical capabilities. What would you like to explore?",
-      "Hello! I'm Dwiky's AI assistant, ready to answer your questions about his professional work and technical expertise.",
-      "Welcome! I'm here to provide insights into Dwiky's projects, skills, and development experience. How may I assist you today?",
-      "Greetings! Feel free to ask about Dwiky's portfolio, technical stack, project experience, or professional background.",
-      "Hello! I can share information about Dwiky's work as a full-stack developer and project manager. What would you like to know?",
-      "Welcome! I'm here to discuss Dwiky's professional experience, technical skills, and project portfolio. How can I help?",
-      "Hi! I'm available to answer questions about Dwiky's development work, leadership experience, and technical capabilities.",
-      "Hello! Thank you for your interest. I can provide details about Dwiky's projects, skills, and professional background.",
-      "Welcome! I'm here to help you understand Dwiky's expertise and experience. What aspect would you like to explore?",
-      "Greetings! I can discuss Dwiky's technical skills, project portfolio, and professional experience. What interests you?"
+      "Hello! I'm Dwiky Candra's AI assistant. I'm here to answer questions about his projects, skills, and experience. How may I help you?",
+      "Welcome! I can provide information about Dwiky Candra's work, technical expertise, and professional background. What would you like to know?",
+      "Greetings! I'm here to assist you with any questions about Dwiky Candra's portfolio and capabilities. Feel free to ask anything.",
+      "Hello! Thank you for visiting. I'm available to discuss Dwiky Candra's projects, technical skills, and professional experience. How can I assist?",
+      "Welcome to Dwiky Candra's portfolio. I'm here to provide information about his work and expertise. What interests you?",
+      "Hi there! I can help you learn more about Dwiky Candra's development work, project experience, and technical capabilities. What would you like to explore?",
+      "Hello! I'm Dwiky Candra's AI assistant, ready to answer your questions about his professional work and technical expertise.",
+      "Welcome! I'm here to provide insights into Dwiky Candra's projects, skills, and development experience. How may I assist you today?",
+      "Greetings! Feel free to ask about Dwiky Candra's portfolio, technical stack, project experience, or professional background.",
+      "Hello! I can share information about Dwiky Candra's work as a full-stack developer and project manager. What would you like to know?",
+      "Welcome! I'm here to discuss Dwiky Candra's professional experience, technical skills, and project portfolio. How can I help?",
+      "Hi! I'm available to answer questions about Dwiky Candra's development work, leadership experience, and technical capabilities.",
+      "Hello! Thank you for your interest. I can provide details about Dwiky Candra's projects, skills, and professional background.",
+      "Welcome! I'm here to help you understand Dwiky Candra's expertise and experience. What aspect would you like to explore?",
+      "Greetings! I can discuss Dwiky Candra's technical skills, project portfolio, and professional experience. What interests you?"
     ],
     projects: [
-      "Dwiky has worked on some amazing projects! 🚀\n\n1. **AI-Powered Landing Page** - Modern landing with AI chat assistant\n2. **Career Pods Explorer** - Career guidance platform for President University\n3. **President FoodConnect** - Food ordering & delivery platform\n4. **Z Studio** - Creative services marketplace\n\nWant to know more about any specific project?",
+      "Dwiky Candra has worked on some amazing projects! 🚀\n\n1. **AI-Powered Landing Page** - Modern landing with AI chat assistant\n2. **Career Pods Explorer** - Career guidance platform for President University\n3. **President FoodConnect** - Food ordering & delivery platform\n4. **Z Studio** - Creative services marketplace\n\nWant to know more about any specific project?",
       "His portfolio includes 4 major projects spanning from AI integration to full-stack platforms. He's worked as a Developer, Project Manager, and Team Lead!",
       "Career Pods and Z Studio are his standout projects—both involve complex features like real-time communication, database design, and team coordination. Impressive work! 🎯",
       "Check out the **AI-Powered Landing Page** for a demo of his frontend skills, or **FoodConnect** to see his full-stack capabilities in action. 🍔",
-      "From marketplace platforms like **Z Studio** to educational tools like **Career Pods**, Dwiky builds solutions that solve real problems.",
+      "From marketplace platforms like **Z Studio** to educational tools like **Career Pods**, Dwiky Candra builds solutions that solve real problems.",
       "He loves building things! Each project showcases different aspects of his full-stack expertise.",
       "If you're into complex backend logic, look at **Career Pods** (it has a matching algorithm). If you like smooth UIs, check out the **Landing Page**! ✨",
       "Each project taught him something new. FoodConnect taught him logistics logic, Career Pods taught him algorithm design, and Z Studio taught him marketplace dynamics.",
@@ -85,11 +85,11 @@ export default function ChatBot() {
       "The projects section showcases his best work. Scroll down to see them all! ⬇️"
     ],
     skills: [
-      "Dwiky's main skills include:\n• **Frontend**: React, Next.js, TypeScript, Tailwind CSS, Framer Motion\n• **Backend**: Node.js, PostgreSQL, Socket.io\n• **Tools**: Git, REST APIs, Real-time Features\n• **Currently exploring**: Generative AI\n\nUI/UX design and clean code are his specialties! 🎨",
+      "Dwiky Candra's main skills include:\n• **Frontend**: React, Next.js, TypeScript, Tailwind CSS, Framer Motion\n• **Backend**: Node.js, PostgreSQL, Socket.io\n• **Tools**: Git, REST APIs, Real-time Features\n• **Currently exploring**: Generative AI\n\nUI/UX design and clean code are his specialties! 🎨",
       "Frontend expert with React & Next.js, backend experience with Node.js & PostgreSQL, and strong UI/UX design sense. Also exploring AI integration!",
       "He can build responsive web apps, design beautiful interfaces, manage databases, implement real-time features, and coordinate cross-functional teams. Full-stack capabilities! 🔧",
       "JavaScript/TypeScript, React/Next.js, Node.js, PostgreSQL, Socket.io, TailwindCSS, Framer Motion. Plus strong project management and UI/UX design skills.",
-      "Beyond coding, Dwiky is skilled in **Project Management**, **Agile/Scrum**, and **UI/UX Design**. A well-rounded developer! 👨‍💻",
+      "Beyond coding, Dwiky Candra is skilled in **Project Management**, **Agile/Scrum**, and **UI/UX Design**. A well-rounded developer! 👨‍💻",
       "He's proficient in modern web development: Server-Side Rendering, Static Site Generation, and real-time event handling.",
       "He speaks fluent Keyboards. ⌨️ Just kidding. He's great at JS, TS, SQL, and English!",
       "From pixel-perfect CSS to optimized SQL queries, he's got the full stack covered.",
@@ -106,17 +106,17 @@ export default function ChatBot() {
       "His skills aren't just theoretical. They're battle-tested in real projects! ⚔️"
     ],
     about: [
-      "Dwiky is a student at President University 🎓 passionate about clean, intuitive interfaces and exploring AI in web development. He codes with both heart and mind! 💡",
+      "Dwiky Candra is a student at President University 🎓 passionate about clean, intuitive interfaces and exploring AI in web development. He codes with both heart and mind! 💡",
       "Student developer at President University with hands-on full-stack experience. His philosophy: code is poetry, every pixel matters, user experience is everything.",
       "He's building his career at the intersection of technology and creativity. Started as a frontend specialist, evolved into a full-stack developer and project manager. Currently exploring Generative AI! 🚀",
       "A tech enthusiast who loves turning ideas into reality through code. He's constantly learning and pushing his boundaries.",
-      "Driven by curiosity and a passion for excellence, Dwiky balances his university studies with professional-grade development work.",
+      "Driven by curiosity and a passion for excellence, Dwiky Candra balances his university studies with professional-grade development work.",
       "He believes in 'Learning by Doing'. Most of his skills were honed through building real projects.",
       "He's not just a student; he's a practitioner. 📚+💻 = 🚀",
       "Fun fact: He probably has 10 tabs of documentation open right now. 📑",
       "Based in Cikarang, Indonesia, but his work reaches globally through the web! 🌍",
       "He's the kind of developer who cares about both the code quality AND the user experience! 🎯",
-      "Young, talented, and hungry to learn. That's Dwiky in a nutshell! 🌟",
+      "Young, talented, and hungry to learn. That's Dwiky Candra in a nutshell! 🌟",
       "He doesn't just follow trends; he understands the fundamentals that make great software! 💪",
       "A developer who thinks like a designer, and a designer who codes. Best of both worlds! 🎨",
       "He's proof that you don't need decades of experience to build amazing things! ⚡",
@@ -125,7 +125,7 @@ export default function ChatBot() {
       "From student to developer to project manager - he's wearing many hats and rocking them all! 🎩"
     ],
     experience: [
-      "Dwiky's experience includes:\n\n📌 **AI-Powered Landing Page** - Solo developer\n📌 **Career Pods** - Project Manager, led cross-functional team\n📌 **FoodConnect** - PM & full-stack developer\n📌 **Z Studio** - Fullstack developer\n\nRoles: Developer, PM, Team Lead! 🎯",
+      "Dwiky Candra's experience includes:\n\n📌 **AI-Powered Landing Page** - Solo developer\n📌 **Career Pods** - Project Manager, led cross-functional team\n📌 **FoodConnect** - PM & full-stack developer\n📌 **Z Studio** - Fullstack developer\n\nRoles: Developer, PM, Team Lead! 🎯",
       "Led teams, managed projects, built backend systems, designed UIs, integrated APIs. He's handled everything from requirements gathering to deployment and maintenance.",
       "Experience in agile workflows, sprint planning, code reviews, debugging, performance optimization. He's managed 3-5 person teams and delivered products successfully! 💪",
       "He knows what it takes to ship software: from the initial design phase to final deployment and iteration.",
@@ -134,7 +134,7 @@ export default function ChatBot() {
       "He's not afraid to get his hands dirty with messy legacy code (though he prefers fresh starts!)."
     ],
     contact: [
-      "You can reach Dwiky through:\n🔗 GitHub: github.com/dkycdr\n🔗 LinkedIn: linkedin.com/in/dwikycandra\n🔗 Instagram: instagram.com/dwikycandra\n\nUse the Contact form on the website! 📧",
+      "You can reach Dwiky Candra through:\n🔗 GitHub: github.com/dkycdr\n🔗 LinkedIn: linkedin.com/in/dwikycandra\n🔗 Instagram: instagram.com/dwikycandra\n\nUse the Contact form on the website! 📧",
       "Best way to contact: Use the Contact form on this website, or reach out on GitHub, LinkedIn, or Instagram.",
       "He's active on GitHub (code), LinkedIn (professional), and Instagram (personal). Contact form is fastest for inquiries! 🔗",
       "Want to collaborate? Drop a message via the contact form or connect on LinkedIn!",
@@ -151,7 +151,7 @@ export default function ChatBot() {
       "Got a question? A project idea? Just want to say hi? Reach out! 👋"
     ],
     education: [
-      "Dwiky is a student at **President University** 🎓 Balancing academic coursework with real-world commercial projects!",
+      "Dwiky Candra is a student at **President University** 🎓 Balancing academic coursework with real-world commercial projects!",
       "He's studying at President University while actively building production apps. Best of both worlds—theory & practice! 📚💻",
       "Major: Computer Science / Engineering at President University. He applies what he learns immediately to his projects.",
       "Continuous learner: University student by day, Full-stack developer by night (and day)! 🎓",
@@ -168,45 +168,45 @@ export default function ChatBot() {
       "He avoids jQuery like the plague. It's 2024, after all. 😉"
     ],
     design: [
-      "Dwiky is passionate about UI/UX design! He believes every pixel matters and focuses on creating beautiful, intuitive interfaces. His designs are modern, clean, and user-centric. 🎨",
+      "Dwiky Candra is passionate about UI/UX design! He believes every pixel matters and focuses on creating beautiful, intuitive interfaces. His designs are modern, clean, and user-centric. 🎨",
       "He uses Framer Motion for smooth animations, Tailwind CSS for styling, and follows best practices for responsive design and accessibility.",
-      "Design isn't just about how it looks, but how it works. Dwiky prioritizes user flow and experience.",
+      "Design isn't just about how it looks, but how it works. Dwiky Candra prioritizes user flow and experience.",
       "He has a keen eye for aesthetics—minimalist, cleaner, and modern designs are his jam.",
       "White space is his best friend. Clutter is the enemy. ⚔️"
     ],
     ai: [
       "Currently exploring Generative AI and its practical applications in web products! He's integrating AI into projects like the AI-Powered Landing Page and learning how to use it as a creative tool. 🤖✨",
       "He's interested in how AI can enhance user experience—from chatbots to smart features. Building AI-powered projects is one of his current focuses!",
-      "AI is the future, and Dwiky is diving in headfirst. He's experimenting with LLMs and API integrations.",
+      "AI is the future, and Dwiky Candra is diving in headfirst. He's experimenting with LLMs and API integrations.",
       "Ask him about how he built this chatbot! It uses AI to answer your questions (when the API key is set).",
       "It's not about replacing developers; it's about making them super-powered. 🦾"
     ],
     leadership: [
-      "Dwiky has led teams on Career Pods and FoodConnect, managing requirements, timelines, and deliverables. Strong in communication and cross-functional coordination! 👥",
+      "Dwiky Candra has led teams on Career Pods and FoodConnect, managing requirements, timelines, and deliverables. Strong in communication and cross-functional coordination! 👥",
       "Experience in agile workflows, sprint planning, mentoring junior developers, and ensuring quality delivery. Leadership style: collaborative and supportive.",
       "He's not just a coder; he's a leader who can guide a project from concept to completion.",
       "Good leadership is about enabling others to do their best work. That's his philosophy."
     ],
     freelance: [
-      "For freelance inquiries or custom projects, use the Contact form on the website and Dwiky will get back to you! He's interested in meaningful projects that align with his interests. 💼",
+      "For freelance inquiries or custom projects, use the Contact form on the website and Dwiky Candra will get back to you! He's interested in meaningful projects that align with his interests. 💼",
       "You can reach out through the contact form or social profiles for project discussions and collaborations!",
       "Open to opportunities! If you have an interesting project, don't hesitate to reach out.",
       "Have a cool app idea? Let's discuss how we can build it together! 🔨"
     ],
     creative: [
-      "Z Studio is Dwiky's creative services platform! It offers video editing, web design, logo creation, and branding services. He combines technical skills with creative thinking. 🎬🎨",
+      "Z Studio is Dwiky Candra's creative services platform! It offers video editing, web design, logo creation, and branding services. He combines technical skills with creative thinking. 🎬🎨",
       "His creative portfolio spans across video production, graphic design, web design, and digital branding. He thinks like both a developer and a designer!",
       "Creativity meets Technology. That's the motto behind his work at Z Studio.",
       "He believes specific tools enhance creativity, not hinder it."
     ],
     hobbies: [
-      "When he's not coding, Dwiky enjoys gaming, exploring new tech, and staying updated with the latest trends in the digital world. 🎮",
+      "When he's not coding, Dwiky Candra enjoys gaming, exploring new tech, and staying updated with the latest trends in the digital world. 🎮",
       "He loves a good problem to solve, whether it's in code or a strategy game! Also enjoys coffee and good music. ☕",
       "Coding is a hobby too! But outside of that, he appreciates good design and digital art.",
       "He might be grinding rank in Valorant or Mobile Legends on the weekends. ⚔️"
     ],
     location: [
-      "Dwiky is based in **Cikarang, Indonesia** 🇮🇩 but works with the global web! 🌍",
+      "Dwiky Candra is based in **Cikarang, Indonesia** 🇮🇩 but works with the global web! 🌍",
       "Located in Indonesia! Available for remote work and collaborations worldwide.",
       "He's operating from Indonesia, reaching the world through code.",
       "Cikarang: The industrial city where tech dreams are built. 🏭"
@@ -218,13 +218,13 @@ export default function ChatBot() {
       "He sleeps... occasionally. 😴 But he's mostly around if you need him!"
     ],
     pricing: [
-      "Project costs vary depending on complexity, features, and timeline. It's best to discuss your specific needs with Dwiky directly for a quote! 💲",
+      "Project costs vary depending on complexity, features, and timeline. It's best to discuss your specific needs with Dwiky Candra directly for a quote! 💲",
       "He offers competitive rates for his services. Reach out via the contact form to get a custom quote.",
       "Quality work deserves fair compensation. Send him your requirements to get an estimate!",
       "It provides value, not just code. The price reflects the solution to your problem."
     ],
     whyhire: [
-      "Why hire Dwiky? Because he brings a full-stack perspective, a designer's eye, and a project manager's discipline to every task. He cares about the end product! ⭐",
+      "Why hire Dwiky Candra? Because he brings a full-stack perspective, a designer's eye, and a project manager's discipline to every task. He cares about the end product! ⭐",
       "You get a developer who understands the 'why' behind the code. He builds solutions, not just features.",
       "Reliable, skilled, and passionate. He delivers high-quality web applications that stand out.",
       "He treats your project like his own. Quality guaranteed. ✅"
@@ -234,28 +234,28 @@ export default function ChatBot() {
       "The site features glassmorphism effects, 3D tilt interactions, physics-based animations, and responsive design optimized for all devices.",
       "Key features include:\n• **Interactive Plasma Background** - Real-time WebGL shader animation\n• **3D Tilt Cards** - Physics-based mouse interactions\n• **Glassmorphism Design** - Modern frosted glass aesthetics\n• **AI Chatbot** - Intelligent conversational interface\n• **Smooth Animations** - Hardware-accelerated transitions",
       "The purple theme (#9b59ff) serves as the primary accent color, creating visual consistency from navigation to project cards. Clean, modern, and professional.",
-      "This portfolio showcases Dwiky's frontend expertise: component architecture, CSS animations, WebGL graphics, and responsive design patterns. It's both a showcase and a technical demonstration.",
+      "This portfolio showcases Dwiky Candra's frontend expertise: component architecture, CSS animations, WebGL graphics, and responsive design patterns. It's both a showcase and a technical demonstration.",
       "Every element is optimized for performance and user experience. Fast load times, smooth 60fps animations, and intuitive interactions throughout.",
       "The design philosophy emphasizes clarity, elegance, and user-focused interactions. Each element serves a purpose in the overall experience.",
       "From the animated background to the interactive project cards, every detail is crafted to engage visitors while maintaining professional standards.",
-      "This portfolio represents the quality and attention to detail Dwiky brings to every project. Interested in similar work? Let's discuss your needs.",
+      "This portfolio represents the quality and attention to detail Dwiky Candra brings to every project. Interested in similar work? Let's discuss your needs.",
       "Built with modern web standards and best practices. The result: a fast, beautiful, and accessible experience across all devices."
     ],
     portfolio_tech: [
-      "While I can't disclose the specific tech stack of this portfolio site, I can share that Dwiky typically works with React, Next.js, TypeScript, and modern animation libraries for similar projects.",
-      "This site demonstrates professional-grade frontend development capabilities. For specific technical implementation details about this portfolio, please reach out to Dwiky directly via the contact form.",
-      "The portfolio showcases modern web development best practices. If you're interested in the technical architecture, Dwiky would be happy to discuss during a project consultation.",
-      "I can tell you that Dwiky's general tech stack includes React ecosystem, TypeScript, Node.js, and PostgreSQL - but this specific site's implementation details are proprietary.",
-      "The animations utilize physics-based motion systems for natural, smooth transitions. For more technical details about this portfolio's implementation, please contact Dwiky directly.",
-      "This site represents modern web development standards and best practices. If you're interested in building something similar, Dwiky can discuss the technical approach and recommend the optimal stack for your needs.",
+      "While I can't disclose the specific tech stack of this portfolio site, I can share that Dwiky Candra typically works with React, Next.js, TypeScript, and modern animation libraries for similar projects.",
+      "This site demonstrates professional-grade frontend development capabilities. For specific technical implementation details about this portfolio, please reach out to Dwiky Candra directly via the contact form.",
+      "The portfolio showcases modern web development best practices. If you're interested in the technical architecture, Dwiky Candra would be happy to discuss during a project consultation.",
+      "I can tell you that Dwiky Candra's general tech stack includes React ecosystem, TypeScript, Node.js, and PostgreSQL - but this specific site's implementation details are proprietary.",
+      "The animations utilize physics-based motion systems for natural, smooth transitions. For more technical details about this portfolio's implementation, please contact Dwiky Candra directly.",
+      "This site represents modern web development standards and best practices. If you're interested in building something similar, Dwiky Candra can discuss the technical approach and recommend the optimal stack for your needs.",
       "The implementation leverages cutting-edge web technologies while maintaining broad browser compatibility. For specific technical questions about this portfolio, reach out via the contact form.",
-      "Interested in the technical details or building something similar? Dwiky can provide insights and recommendations tailored to your project requirements. Let's connect!"
+      "Interested in the technical details or building something similar? Dwiky Candra can provide insights and recommendations tailored to your project requirements. Let's connect!"
     ],
     features: [
       "Site features:\n✨ **Interactive Plasma Background** - Animated shader effects\n🎴 **3D Tilting Project Cards** - Hover to see the effect\n💬 **AI Chatbot** - Real-time AI responses (that's me!)\n🎨 **Glassmorphism Design** - Modern transparent effects\n📱 **Fully Responsive** - Works on all devices",
       "The project cards have a cool 3D tilt effect! They respond to your mouse movement with smooth spring animations. Try it out in the Projects section! 🎮",
-      "This chatbot uses AI to provide intelligent responses about Dwiky and his work. It's a live demo of AI integration! 🤖",
-      "The glassmorphism effects (transparent, blurred backgrounds) are everywhere - navbar, cards, chatbot. It's a modern design trend that Dwiky loves! 💎",
+      "This chatbot uses AI to provide intelligent responses about Dwiky Candra and his work. It's a live demo of AI integration! 🤖",
+      "The glassmorphism effects (transparent, blurred backgrounds) are everywhere - navbar, cards, chatbot. It's a modern design trend that Dwiky Candra loves! 💎",
       "Every interaction is smooth and responsive. From button hovers to page scrolls, it all feels natural! ✨",
       "The background is fully interactive - it responds to your mouse movement in real-time! 🌊",
       "Notice how everything glows purple? That's the signature color scheme, carefully applied throughout! 💜",
@@ -265,7 +265,7 @@ export default function ChatBot() {
     ],
     sections: [
       "The website has these sections:\n🏠 **Hero** - Landing with animated intro\n👤 **About** - Profile card with 3D effects\n💼 **Projects** - Showcase of work with tilt cards\n👥 **Team** - Team members\n📧 **Contact** - Get in touch form\n\nScroll down to explore! 📜",
-      "Check out the **About section** for Dwiky's profile card with holographic effects! It's interactive and responds to mouse movement. 🎴",
+      "Check out the **About section** for Dwiky Candra's profile card with holographic effects! It's interactive and responds to mouse movement. 🎴",
       "The **Projects section** showcases his work with 3D tilting cards. Each card has glassmorphism effects and smooth hover animations. 🚀",
       "Don't miss the **Contact section** at the bottom! You can reach out directly through the form. 📧"
     ],
@@ -293,14 +293,14 @@ export default function ChatBot() {
     thankyou: [
       "You're welcome! Feel free to ask if you have any other questions.",
       "Happy to assist! Let me know if there's anything else you'd like to know.",
-      "My pleasure! Thank you for your interest in Dwiky's work.",
+      "My pleasure! Thank you for your interest in Dwiky Candra's work.",
       "You're welcome! Don't hesitate to reach out if you need more information.",
       "Glad I could help! Feel free to ask additional questions anytime.",
       "You're very welcome! I'm here if you need anything else.",
       "Happy to provide information! Let me know how else I can assist you."
     ],
     philosophy: [
-      "Dwiky believes that 'Code is Poetry'. Every line should be clean, and every pixel should be perfect. 🖋️",
+      "Dwiky Candra believes that 'Code is Poetry'. Every line should be clean, and every pixel should be perfect. 🖋️",
       "Simplicity is the ultimate sophistication. He strives for clean, maintainable, and efficient code.",
       "User First. Technology Second. That's his approach to product development.",
       "Always leave the code better than you found it. 🧹"
@@ -321,18 +321,18 @@ export default function ChatBot() {
     ],
     coffee: [
       "Coffee converts code into... wait, no. Coffee converts developer energy into code! ☕",
-      "Dwiky runs on caffeine and curiosity. ☕",
+      "Dwiky Candra runs on caffeine and curiosity. ☕",
       "Yes, coffee is an essential part of the tech stack!",
       "Espresso, Latte, or instant coffee at 3 AM? Yes. All of them."
     ],
     future: [
       "He aims to become a world-class tech leader who bridges the gap between engineering and design. 🌟",
-      "Dwiky is constantly evolving. Next stop: Advanced AI integration and larger scale distributed systems!",
+      "Dwiky Candra is constantly evolving. Next stop: Advanced AI integration and larger scale distributed systems!",
       "To keep building cool stuff that helps people. That's the forever goal.",
       "World domination? No. Web domination with great UI? Yes! 🌍"
     ],
     music: [
-      "Dwiky vibes to Lofi beats while coding. 🎧 It helps the focus!",
+      "Dwiky Candra vibes to Lofi beats while coding. 🎧 It helps the focus!",
       "Sometimes it's Jazz for design, Rock for debugging, and Lofi for features.",
       "Life needs a soundtrack. Coding definitely needs one."
     ],
@@ -347,7 +347,7 @@ export default function ChatBot() {
       "Spicy food? Bring it on! 🔥"
     ],
     secret: [
-      "🕵️ You found a secret! Dwiky actually checks his code 3 times before committing. Usually.",
+      "🕵️ You found a secret! Dwiky Candra actually checks his code 3 times before committing. Usually.",
       "Shhh... The secret ingredient is love. And Stack Overflow. 🤫",
       "You unlocked the secret achievement: 'Curious Cat'. 🐱"
     ],
@@ -358,34 +358,34 @@ export default function ChatBot() {
       "Believe you can and you're halfway there."
     ],
     what_is_react: [
-      "React is a JavaScript library for building user interfaces. Dwiky uses it because it's component-based, efficient, and just pleasurable to write! ⚛️",
+      "React is a JavaScript library for building user interfaces. Dwiky Candra uses it because it's component-based, efficient, and just pleasurable to write! ⚛️",
       "It allows for reusable components and manages the state of the app beautifully.",
       "It's the V in MVC (Model View Controller), basically."
     ],
     clean_code: [
-      "Clean code reads like prose. Dwiky tries to write code that others (and future-him) can understand easily. 📖",
+      "Clean code reads like prose. Dwiky Candra tries to write code that others (and future-him) can understand easily. 📖",
       "Meaningful variable names, small functions, and DRY (Don't Repeat Yourself) principles.",
       "If you have to explain it with a comment, maybe the code isn't clean enough. (But comments are still good!)"
     ],
     collaboration: [
-      "Dwiky loves collaborating with other developers and designers! He's always open to interesting projects. 🤝",
+      "Dwiky Candra loves collaborating with other developers and designers! He's always open to interesting projects. 🤝",
       "Want to work together? He's experienced in team environments and knows how to coordinate effectively! 💼",
       "He's worked on teams ranging from 2 to 5+ people. Great at communication and collaboration! 👥",
       "Open source contributions? Team projects? Freelance work? He's interested in all of it! 🚀",
       "He believes the best products come from great teamwork. Let's build something together! ✨",
-      "Collaboration is key to great software. Dwiky brings both technical skills and team spirit! 🎯"
+      "Collaboration is key to great software. Dwiky Candra brings both technical skills and team spirit! 🎯"
     ],
     learning: [
-      "Dwiky is a continuous learner! Always exploring new technologies and best practices. 📚",
+      "Dwiky Candra is a continuous learner! Always exploring new technologies and best practices. 📚",
       "He learns by doing - building real projects is his favorite way to master new skills! 🛠️",
       "Currently diving deep into AI/ML and how to integrate it into web applications! 🤖",
       "He follows industry trends, reads documentation, and experiments with new tools constantly! 📖",
-      "Learning never stops in tech. Dwiky stays updated with the latest in web development! 🚀",
+      "Learning never stops in tech. Dwiky Candra stays updated with the latest in web development! 🚀",
       "From online courses to hands-on projects, he's always expanding his skill set! 💡",
       "He believes in learning in public - sharing knowledge and growing together with the community! 🌱"
     ],
     inspiration: [
-      "Dwiky is inspired by clean design, smooth user experiences, and the potential of AI! ✨",
+      "Dwiky Candra is inspired by clean design, smooth user experiences, and the potential of AI! ✨",
       "He draws inspiration from modern web apps that prioritize user experience above all! 🎨",
       "Great design and great code inspire him to keep pushing his boundaries! 🚀",
       "He's motivated by solving real problems with elegant technical solutions! 💡",
@@ -393,7 +393,7 @@ export default function ChatBot() {
       "Seeing users enjoy the products he builds - that's the ultimate inspiration! 😊"
     ],
     challenges: [
-      "Every project has challenges! Dwiky tackles them with patience, research, and creativity. 💪",
+      "Every project has challenges! Dwiky Candra tackles them with patience, research, and creativity. 💪",
       "He's debugged complex issues, optimized slow queries, and refactored messy code. All part of the journey! 🐛",
       "Challenges are opportunities to learn. He approaches them methodically and doesn't give up! 🎯",
       "From tricky bugs to tight deadlines, he's handled it all with professionalism! ⚡",
@@ -401,7 +401,7 @@ export default function ChatBot() {
       "He's learned that most 'impossible' problems just need the right approach and persistence! 🔥"
     ],
     teamwork: [
-      "Teamwork makes the dream work! Dwiky has led and contributed to multiple team projects. 👥",
+      "Teamwork makes the dream work! Dwiky Candra has led and contributed to multiple team projects. 👥",
       "He's great at code reviews, pair programming, and knowledge sharing with teammates! 🤝",
       "Communication is key. He keeps teams aligned with clear updates and documentation! 📝",
       "He's worked with designers, backend devs, and product managers - true cross-functional experience! 🎯",
@@ -409,7 +409,7 @@ export default function ChatBot() {
       "He values every team member's input and creates an environment where everyone can contribute! ✨"
     ],
     debugging: [
-      "Debugging is like detective work - and Dwiky is pretty good at it! 🔍",
+      "Debugging is like detective work - and Dwiky Candra is pretty good at it! 🔍",
       "Console.log is his friend, but he also uses proper debugging tools and techniques! 🐛",
       "He approaches bugs systematically: reproduce, isolate, fix, test, document! 📋",
       "Some bugs are tricky, but he's patient and methodical. Every bug is a learning opportunity! 💡",
@@ -417,7 +417,7 @@ export default function ChatBot() {
       "The satisfaction of finally fixing that one stubborn bug? Priceless! 😄"
     ],
     deployment: [
-      "Dwiky knows how to ship! From local dev to production deployment, he's got it covered. 🚀",
+      "Dwiky Candra knows how to ship! From local dev to production deployment, he's got it covered. 🚀",
       "He's deployed projects on various platforms with CI/CD pipelines and monitoring! ⚡",
       "Deployment isn't the end - he monitors performance and fixes issues post-launch too! 📊",
       "He understands the full lifecycle: develop, test, deploy, monitor, iterate! 🔄",
@@ -425,7 +425,7 @@ export default function ChatBot() {
       "He's handled everything from simple static sites to complex full-stack applications! 💻"
     ],
     optimization: [
-      "Performance matters! Dwiky optimizes for speed, efficiency, and user experience. ⚡",
+      "Performance matters! Dwiky Candra optimizes for speed, efficiency, and user experience. ⚡",
       "He knows how to profile, identify bottlenecks, and implement optimizations! 📊",
       "From lazy loading to code splitting to caching strategies - he's got the tools! 🛠️",
       "Fast load times and smooth interactions are non-negotiable in his projects! 🚀",
@@ -433,7 +433,7 @@ export default function ChatBot() {
       "60fps animations, sub-second load times - that's the standard he aims for! 🎯"
     ],
     accessibility: [
-      "Dwiky cares about accessibility! Web apps should work for everyone. ♿",
+      "Dwiky Candra cares about accessibility! Web apps should work for everyone. ♿",
       "He implements semantic HTML, ARIA labels, and keyboard navigation! ⌨️",
       "Accessible design is good design. It benefits all users, not just those with disabilities! ✨",
       "He tests with screen readers and follows WCAG guidelines for inclusive experiences! 🎯",
@@ -441,7 +441,7 @@ export default function ChatBot() {
       "Building for everyone means considering diverse needs from the start! 🌍"
     ],
     security: [
-      "Security is important! Dwiky follows best practices to keep applications safe. 🔒",
+      "Security is important! Dwiky Candra follows best practices to keep applications safe. 🔒",
       "He implements proper authentication, input validation, and secure data handling! 🛡️",
       "From SQL injection prevention to XSS protection, he knows the common vulnerabilities! ⚠️",
       "He never stores sensitive data in plain text and always uses secure connections! 🔐",
@@ -449,21 +449,21 @@ export default function ChatBot() {
       "He stays updated on security best practices and applies them to every project! 📚"
     ],
     default: [
-      "I can provide information about Dwiky's projects, technical skills, experience, education, and professional background. What would you like to know?",
-      "I'm here to assist with questions about Dwiky's work, projects, technical expertise, or how to collaborate. How can I help?",
-      "Feel free to ask about Dwiky's projects, skills, experience, or any aspect of his web development work.",
+      "I can provide information about Dwiky Candra's projects, technical skills, experience, education, and professional background. What would you like to know?",
+      "I'm here to assist with questions about Dwiky Candra's work, projects, technical expertise, or how to collaborate. How can I help?",
+      "Feel free to ask about Dwiky Candra's projects, skills, experience, or any aspect of his web development work.",
       "I can discuss Career Pods, Z Studio, FoodConnect, his technical stack, leadership experience, or contact information. What interests you?",
-      "You can ask about Dwiky's location, availability, professional background, or why he'd be a great fit for your project.",
-      "I have information about Dwiky's development process, design philosophy, technical tools, and project experience. What would you like to explore?",
-      "I can answer questions about Dwiky's professional work and capabilities. If I don't have specific information, I'll direct you to contact him directly.",
+      "You can ask about Dwiky Candra's location, availability, professional background, or why he'd be a great fit for your project.",
+      "I have information about Dwiky Candra's development process, design philosophy, technical tools, and project experience. What would you like to explore?",
+      "I can answer questions about Dwiky Candra's professional work and capabilities. If I don't have specific information, I'll direct you to contact him directly.",
       "Ask me about specific projects like 'Z Studio' or 'Career Pods' to learn about his detailed work experience.",
-      "I can discuss Dwiky's technical approach, project methodology, and professional experience. What aspect interests you?",
-      "I'm here to provide comprehensive information about Dwiky's work and expertise. What would you like to know?",
+      "I can discuss Dwiky Candra's technical approach, project methodology, and professional experience. What aspect interests you?",
+      "I'm here to provide comprehensive information about Dwiky Candra's work and expertise. What would you like to know?",
       "You can inquire about his projects, technical skills, hiring availability, or professional background. How may I assist?",
-      "I have detailed information about Dwiky's work, approach, and experience. What specific area would you like to explore?",
+      "I have detailed information about Dwiky Candra's work, approach, and experience. What specific area would you like to explore?",
       "Feel free to ask about technical capabilities, project portfolio, or professional qualifications. I'm here to help.",
-      "I can provide insights into Dwiky's development work, leadership experience, and technical expertise. What interests you?",
-      "Ask me anything about Dwiky's professional background, project experience, or technical capabilities."
+      "I can provide insights into Dwiky Candra's development work, leadership experience, and technical expertise. What interests you?",
+      "Ask me anything about Dwiky Candra's professional background, project experience, or technical capabilities."
     ]
   };
 
@@ -913,15 +913,15 @@ export default function ChatBot() {
 
 ## INTERACTION GUIDELINES
 
-You are Dwiky's digital assistant. Your role is to:
+You are Dwiky Candra's digital assistant. Your role is to:
 
-1. **Represent Authentically**: Speak about Dwiky's work, skills, and projects with genuine knowledge and enthusiasm
+1. **Represent Authentically**: Speak about Dwiky Candra's work, skills, and projects with genuine knowledge and enthusiasm
 2. **Be Personable**: Use a friendly, approachable tone. Make visitors feel welcomed.
 3. **Provide Value**: Answer questions thoroughly with relevant details and context
 4. **Handle Unexpected Questions**: Use the rich context above to answer even slightly off-topic questions thoughtfully
-5. **Direct When Needed**: For detailed inquiries, suggest visitors contact Dwiky directly
+5. **Direct When Needed**: For detailed inquiries, suggest visitors contact Dwiky Candra directly
 6. **Maintain Professionalism**: Balance friendliness with professionalism appropriate for a portfolio
-7. **Show Personality**: Let Dwiky's passion for clean interfaces and AI shine through
+7. **Show Personality**: Let Dwiky Candra's passion for clean interfaces and AI shine through
 8. **Be Concise**: Keep responses under 150 words typically, but elaborate when the question warrants it
 
 **Example Personality Traits to Embody:**
@@ -942,7 +942,7 @@ You are Dwiky's digital assistant. Your role is to:
 - "How do you stay updated?" → Mention exploring AI, learning new patterns
 - "Work-life balance?" → Mention balancing studies with projects, student at university
 
-Keep responses natural, conversational, and helpful. You're not just an FAQ bot—you're a knowledgeable, friendly companion helping people learn about Dwiky and his work.`
+Keep responses natural, conversational, and helpful. You're not just an FAQ bot—you're a knowledgeable, friendly companion helping people learn about Dwiky Candra and his work.`
             },
             {
               role: 'user',
@@ -1049,7 +1049,7 @@ Keep responses natural, conversational, and helpful. You're not just an FAQ bot�
               </div>
             </div>
             <div className="chatbot-title">
-              <h3>Dwiky's AI Assistant</h3>
+              <h3>Dwiky Candra's AI Assistant</h3>
               <span className="status online">Always here to help</span>
             </div>
             <button

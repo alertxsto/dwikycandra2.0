@@ -105,7 +105,7 @@ export default function Hero() {
             </h1>
             
             <p className={`hero-bio ${isVisible ? 'visible' : ''}`}>
-              Hi, I'm Dwiky — a Full-Stack Developer specializing in building scalable, 
+              Hi, I'm Dwiky Candra — a Full-Stack Developer specializing in building scalable, 
               high-performance web applications with React, Next.js, and Node.js. 
               Currently architecting AI-powered solutions and leading cross-functional teams 
               to deliver production-ready applications. Based in Cikarang, Indonesia.

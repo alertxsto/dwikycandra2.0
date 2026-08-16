@@ -287,7 +287,7 @@ export default function About() {
           <div className="intro-section">
             <div className="intro-text">
               <p>
-                I'm Dwiky, a Full-Stack Developer and Informatics student at President University. 
+                I'm Dwiky Candra, a Full-Stack Developer and Informatics student at President University. 
                 I architect scalable web applications using React, Next.js, and Node.js, with proven experience 
                 leading cross-functional teams to deliver production-ready solutions. Currently specializing in 
                 AI integration through IDCamp 2025 (Generative AI Engineering), building intelligent systems 

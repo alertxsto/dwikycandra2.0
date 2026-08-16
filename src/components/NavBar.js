@@ -126,7 +126,7 @@ export default function NavBar(){
           <div className="brand-inner">
             <div className="brand-bg"></div>
             <div className="brand-text">
-              <span className="glitch-text" data-text="Dwiky">Dwiky</span>
+              <span className="glitch-text" data-text="Dwiky Candra">Dwiky Candra</span>
             </div>
             <div className="brand-accent">
               <span className="float-text">Dev</span>
