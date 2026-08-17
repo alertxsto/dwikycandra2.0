@@ -953,8 +953,8 @@ export default function LiquidEther({
       }
       loop() {
         if (!this.running) return;
-        // Throttle to ~15fps: render 1 of every 4 frames
-        if (this.frameCount % 4 === 0) {
+        // Throttle to ~7.5fps: render 1 of every 8 frames
+        if (this.frameCount % 8 === 0) {
           this.render();
         }
         this.frameCount++;
