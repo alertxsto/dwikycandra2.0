@@ -150,7 +150,7 @@ export default function Hero() {
                 }}
                 role="button"
                 tabIndex={0}
-                aria-label={`View details about ${skill.title}`}
+                aria-label={`${skill.title}, view details`}
                 style={{ cursor: 'pointer' }}
               >
                 <div className="skill-icon">

@@ -1033,7 +1033,7 @@ Keep responses natural, conversational, and helpful. You're not just an FAQ botâ
             <span></span>
           </div>
         </div>
-        {!isOpen && <span className="chat-badge">1</span>}
+        {!isOpen && <span className="chat-badge" aria-hidden="true">1</span>}
       </button>
 
       {/* Chat Window */}
