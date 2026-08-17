@@ -1026,8 +1026,21 @@ export default function LiquidEther({
     };
     applyOptionsFromProps();
 
-    webgl.start();
-
+    // Delay WebGL start sampe browser idle (setelah LCP/FCP) — render loop LiquidEther
+    // gak boleh nge-block paint awal. Fallback ke setTimeout 2s kalau rIC gak ada.
+    const startWebGL = () => {
+      if (!webglRef.current) return;
+      webglRef.current.start();
+      // IntersectionObserver tetap jalan buat pause pas keluar viewport
+      if (intersectionObserverRef.current) intersectionObserverRef.current.observe(container);
+    };
+    const scheduleStart = () => {
+      if (typeof requestIdleCallback === 'function') {
+        requestIdleCallback(startWebGL, { timeout: 2500 });
+      } else {
+        setTimeout(startWebGL, 2000);
+      }
+    };
     const io = new IntersectionObserver(
       entries => {
         const entry = entries[0];
@@ -1042,9 +1055,8 @@ export default function LiquidEther({
       },
       { threshold: [0, 0.01, 0.1] }
     );
-    io.observe(container);
     intersectionObserverRef.current = io;
-
+    scheduleStart();
     const ro = new ResizeObserver(() => {
       if (!webglRef.current) return;
       if (resizeRafRef.current) cancelAnimationFrame(resizeRafRef.current);
