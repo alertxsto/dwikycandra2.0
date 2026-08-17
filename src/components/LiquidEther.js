@@ -85,7 +85,7 @@ export default function LiquidEther({
       }
       init(container) {
         this.container = container;
-        this.pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+        this.pixelRatio = Math.min(window.devicePixelRatio || 1, 2) * 0.5; // DPR capped at 0.5x for perf
         this.resize();
         this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
         this.renderer.autoClear = false;
@@ -953,8 +953,8 @@ export default function LiquidEther({
       }
       loop() {
         if (!this.running) return;
-        // Throttle to ~30fps: skip every other frame
-        if (this.frameCount % 2 === 0) {
+        // Throttle to ~15fps: render 1 of every 4 frames
+        if (this.frameCount % 4 === 0) {
           this.render();
         }
         this.frameCount++;
