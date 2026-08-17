@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
+import useModalA11y from '../hooks/useModalA11y';
 import './hero.css';
 import { FiGithub, FiCode, FiLayout, FiZap, FiArrowRight, FiServer, FiDatabase } from 'react-icons/fi';
 
@@ -19,6 +20,7 @@ export default function Hero() {
       setIsClosing(false);
     }, 400); // Match animation duration
   };
+  const skillModalRef = useModalA11y(!!selectedSkill, handleCloseModal);
 
   const skillDetails = [
     {
@@ -134,11 +136,21 @@ export default function Hero() {
 
           {/* Right side */}
           <div className={`hero-cards ${isVisible ? 'visible' : ''}`}>
+            <h2 className="sr-only">My Skills</h2>
             {skillDetails.map((skill) => (
               <div 
                 key={skill.id}
                 className="floating-card skill"
                 onClick={() => setSelectedSkill(skill)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    setSelectedSkill(skill);
+                  }
+                }}
+                role="button"
+                tabIndex={0}
+                aria-label={`View details about ${skill.title}`}
                 style={{ cursor: 'pointer' }}
               >
                 <div className="skill-icon">
@@ -149,7 +161,7 @@ export default function Hero() {
                   {skill.id === 5 && <FiDatabase />}
                 </div>
                 <div className="skill-text">
-                  <h4>{skill.title}</h4>
+                  <h3>{skill.title}</h3>
                   <p>{skill.subtitle}</p>
                 </div>
               </div>
@@ -160,8 +172,20 @@ export default function Hero() {
 
       {/* Modal Popup - Rendered via Portal */}
       {selectedSkill && createPortal(
-        <div className={`skill-modal-overlay ${isClosing ? 'closing' : ''}`} onClick={handleCloseModal}>
-          <div className={`skill-modal ${isClosing ? 'closing' : ''}`} onClick={(e) => e.stopPropagation()}>
+        <div
+          className={`skill-modal-overlay ${isClosing ? 'closing' : ''}`}
+          onClick={handleCloseModal}
+          role="presentation"
+        >
+          <div
+            ref={skillModalRef}
+            className={`skill-modal ${isClosing ? 'closing' : ''}`}
+            onClick={(e) => e.stopPropagation()}
+            role="dialog"
+            aria-modal="true"
+            aria-label={selectedSkill.title}
+            tabIndex={-1}
+          >
             <button 
               className="modal-close"
               onClick={handleCloseModal}

@@ -1,9 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
+import useModalA11y from '../hooks/useModalA11y';
 import './chatbot.css';
 import { FiX, FiSend } from 'react-icons/fi';
 
 export default function ChatBot() {
   const [isOpen, setIsOpen] = useState(false);
+  const chatWindowRef = useModalA11y(isOpen, () => setIsOpen(false));
   const [messages, setMessages] = useState([
     {
       id: 1,
@@ -1036,7 +1038,14 @@ Keep responses natural, conversational, and helpful. You're not just an FAQ botâ
 
       {/* Chat Window */}
       {isOpen && (
-        <div className="chatbot-window">
+        <div
+          ref={chatWindowRef}
+          className="chatbot-window"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Dwiky Candra's AI assistant chat"
+          tabIndex={-1}
+        >
           {!hasApiKey && (
             <div className="chatbot-warning">AI service not configured â€” add <code>REACT_APP_GROQ_API_KEY</code> to <code>.env.local</code> and restart dev server.</div>
           )}

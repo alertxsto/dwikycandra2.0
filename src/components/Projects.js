@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
+import useModalA11y from '../hooks/useModalA11y';
 import ProjectCard from './ProjectCard';
 import './projects.css';
 
@@ -119,6 +120,7 @@ export default function Projects() {
       setIsClosing(false);
     }, 400); // Match animation duration
   };
+  const roleModalRef = useModalA11y(!!selectedRole, handleCloseModal);
 
   return (
     <section className="projects" id="projects">
@@ -156,8 +158,17 @@ export default function Projects() {
         <div
           className={`role-modal-overlay ${isClosing ? 'closing' : ''}`}
           onClick={handleCloseModal}
+          role="presentation"
         >
-          <div className="role-modal" onClick={(e) => e.stopPropagation()}>
+          <div
+            ref={roleModalRef}
+            className={`role-modal ${isClosing ? 'closing' : ''}`}
+            onClick={(e) => e.stopPropagation()}
+            role="dialog"
+            aria-modal="true"
+            aria-label={selectedRole.title}
+            tabIndex={-1}
+          >
             <button
               className="modal-close"
               onClick={handleCloseModal}

@@ -13,6 +13,18 @@ html,body,#root{min-height:100vh}
 .App{font-family:'Poppins',Inter,system-ui,Arial,Helvetica,sans-serif}
 body{margin:0;background:var(--bg);color:var(--muted)}
 .App h1,.App h2,.App h3,.brand{font-family:'Poppins',Sora,Inter,system-ui;font-weight:700;letter-spacing:-0.01em}
+/* Visually hidden but accessible to screen readers (for a11y headings) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 .App h1{color:#fff}
 .container{max-width:1000px;margin:0 auto;padding:0 1rem}
 .site-footer{background:transparent;color:var(--muted);padding:1.5rem 0;text-align:center;border-top:1px solid rgba(255,255,255,0.04);font-family:'Poppins',Inter,system-ui}

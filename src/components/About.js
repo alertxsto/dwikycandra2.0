@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
+import useModalA11y from '../hooks/useModalA11y';
 import './about.css';
 import Stats from './Stats';
 import Testimonials from './Testimonials';
@@ -41,6 +42,7 @@ export default function About() {
       setIsClosing(false);
     }, 400);
   };
+  const infoModalRef = useModalA11y(!!selectedInfo, handleCloseModal);
 
   const infoDetails = {
     education: {
@@ -439,8 +441,20 @@ export default function About() {
 
       {/* Info Modal - Rendered via Portal */}
       {selectedInfo && createPortal(
-        <div className={`info-modal-overlay ${isClosing ? 'closing' : ''}`} onClick={handleCloseModal}>
-          <div className={`info-modal ${isClosing ? 'closing' : ''}`} onClick={(e) => e.stopPropagation()}>
+        <div
+          className={`info-modal-overlay ${isClosing ? 'closing' : ''}`}
+          onClick={handleCloseModal}
+          role="presentation"
+        >
+          <div
+            ref={infoModalRef}
+            className={`info-modal ${isClosing ? 'closing' : ''}`}
+            onClick={(e) => e.stopPropagation()}
+            role="dialog"
+            aria-modal="true"
+            aria-label={selectedInfo.title}
+            tabIndex={-1}
+          >
             <button 
               className="modal-close"
               onClick={handleCloseModal}
