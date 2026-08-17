@@ -71,10 +71,18 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <!-- Google Fonts: Inter for UI, Space Grotesk for brand, Sora for headings -->
+    <!-- Google Fonts: gabungan satu URL (Poppins + Inter + Space Grotesk + Sora + Space Mono), preload non-blocking -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@600;700&family=Sora:wght@600;700&family=Space+Mono:wght@400;700&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    >
+    <noscript>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@600;700&family=Sora:wght@600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    </noscript>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
